@@ -1,0 +1,17 @@
+.cont{
+    background: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+
+}
+.contact{
+    
+    margin-top: 0;
+    width: 600px;
+}
+.formm{
+  border: 1px solid;
+  padding: 20px;
+  background: #E7E9EB;
+  box-shadow: 5px 10px 18px #888888;
+}

@@ -1,0 +1,865 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:ital,wght@0,300;400;500;600;700;300;400;500;600;700&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+*{
+	margin: 0 auto;
+}
+body{
+	transition: 1s;
+}
+.msy-container{
+	background-image: url("../img/top_background.jpg");
+	background-position: center;
+	background-attachment: fixed;
+ 	background-size: cover;
+ 	padding: 0;
+}
+.msy-nav{
+	padding: 0;
+	height: 80px;
+}
+.navbar{background-color:rgba(0,0,0,.2)}
+.msy-nav-mobile{
+	display: none;
+}
+.msy-jumbotron{
+	padding-top: 150px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+	padding-bottom: 140px;
+}
+
+.msy-logo{
+	width: 183px;
+	height: 80px;
+}
+.msy-logo img{
+	width: 183px;
+	height: 80px;
+}
+.msy-menu{
+	max-width:  865px;
+}
+
+.msy-menu-content{
+	width:  614px;
+}
+
+.msy-menu-content ul{
+	width: 100%;
+	margin:0;
+	padding: 0;  
+}
+.msy-menu-content li{
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+
+}
+.msy-menu-content li a{
+	text-decoration: none;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	font-feature-settings: 'salt' on, 'liga' off;
+
+color: #FFFFFF;
+}
+.fa-angle-down{
+	font-family:  generic;
+}
+.msy-not-contact{
+	width: 210px;
+}
+.msy-notify button{
+	border-radius: 50%;
+	background: #01338D;
+}
+.msy-contactUs button{
+	background: #01338D;
+	color: #ffffff !important;
+	list-style: none;
+}
+.msy-contactUs li{
+	color: #ffffff !important;
+	list-style: none;
+}
+.msy-notify button i{
+	color: yellow;
+}
+.fas{
+	color: white;
+}
+
+.msy-quotes{
+	width: 700px;
+	color: #ffffff;
+}
+.msy-quotes h1{
+	font-size: 52px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 70px;
+	color: white;
+}
+.msy-quotes-para p{
+	font-weight: 400px;
+}
+.msy-apply-form{
+	padding: 20px;
+	width: 385px;
+	color: #000000;
+	background: #FFFFFF;
+	border-radius: 10px;
+
+}
+.mys-apply-form h1{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+}
+.msy-apply-form input{
+	width: 100%;
+	margin: 16px auto;
+	border: 2px solid #ced4da;
+	padding: 6px 12px;
+	height: 55px
+}
+.msy-apply-form button{
+	background : #01338D;
+	color: #ffffff;
+
+	padding: 12px 30px;
+}
+
+/*  About us section */
+.msy-aboutUs{
+	background: #FFFFFF;
+}
+
+.msy-aboutUs1{
+	padding: 70px 0;
+	max-width: 1300px;
+}
+.msy-aboutUs_para  h1{
+	margin-left: 0;
+}
+.msy-aboutUs_para{
+	max-width: 630px;
+}
+.msy-aboutUs_img{
+	max-width: 628px;
+	overflow: hidden;
+}
+.msy-aboutUs_img img{
+	max-width: 100%;
+}
+.msy-aboutUs2{
+	color: #ffffff;
+	background : #01338D;
+	width: 100%;
+}
+.msy-aboutUs2-head{
+	display: none;
+}
+.msy-aboutus_info{
+	padding: 35px 0;
+	max-width: 1300px;
+}
+.msy-aboutus_details{
+	max-width: 260px;
+
+}
+
+.msy-aboutus_details h1{
+	font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+}
+.msy-aboutus_details p{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	font-feature-settings: 'salt' on, 'liga' off;
+}
+
+
+
+/**Courses Section**/
+.msy-course-type {
+	background: #FAFAFA;
+}
+.msy-course-type1{
+	padding-top: 0;
+	max-width: 1300px;
+	
+}
+.msy-course-head{
+	border-bottom: 2px solid #AAA7A7;
+	max-width: 954px;
+	padding: 0;
+	flex-shrink: 0;
+	display: inline-block;
+	justify-self: left;
+	flex-shrink: 0;
+}
+.msy-course-head button{
+	background: #FAFAFA;
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #AAA7A7;
+	margin-right: 20px;
+	margin-bottom: 0;
+
+}
+#Courses-cbse{
+	border-bottom:4px solid #01338D;
+	color: #000000;
+	background: #FAFAFA;
+	
+}
+.mys-cbse{
+	padding-bottom: 40px;
+	padding-top: 60px;
+	max-width: 954px;
+}
+.msy-sub-cbse{
+	background: #ffffff;
+	padding: 24px;
+	width: 300px;
+	margin-bottom: 24px;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 10px;
+}
+
+.msy-sub-cbse h1{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #01338D;
+
+
+}
+.msy-sub-cbse-head{
+    position: relative;
+
+}
+
+.msy-sub-cbse-head::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 25%;
+    left: 0;
+    border-top: 4px solid #01338D;
+}
+.msy-sub-cbse-para p{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	/* or 178% */
+
+	font-feature-settings: 'salt' on, 'liga' off;
+
+	/* Text / Gray 900 */
+
+	color: #18191F;
+}
+.msy-viewallbtn-cont{
+	padding-bottom: 30px;
+	
+}
+.msy-viewallbtn-cont button{
+	margin: 0 auto;
+
+}
+.msy-viewall{
+	
+	padding: 12px 32px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	/* identical to box height, or 150% */
+
+	text-align: center;
+	font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+	color: #FFFFFF;
+	background: #01338D;
+	color: #ffffff;
+	margin-left: 10px;
+}
+
+
+
+/**What we offer section**/
+
+
+.msy-weOffer{
+	padding: 0 0 80px 0;
+
+}
+.msy-offerHead{
+	padding: 60px 0 5px 0;
+}
+.msy-offerHead h1{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+	/* identical to box height */
+
+
+	color: #000000;
+}
+.msy-offer-carousel{
+	max-width: 1300px;
+}
+.msy-weOffer-cont{
+	max-width: 1300px;
+	margin: 0;
+}
+.msy-drop-shadow{
+	position:relative;
+	
+}
+
+.msy-offerItem{
+	position: relative;
+	width: 300px;
+	border-radius: 20px;
+	margin-bottom: 32px;
+}
+
+
+/***** Drop shadwow was giving porblem
+ 
+
+
+
+.msy-offerItem:before{
+  content:'';
+  position:absolute;
+  top:0; left:0;
+  width:100%; height:100%;
+  border-radius:inherit;
+  border-bottom: 1px solid #D5D5D5;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -moz-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -ms-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -o-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+***********/
+
+
+
+.msy-offerDetails{
+	padding: 32px 0 0 0;
+	border-left: 2px solid rgba(0, 0, 0, 0.15);
+  	border-right: 2px solid rgba(0, 0, 0, 0.15);
+}
+.carousel-item{
+	padding-bottom: 5px;
+}
+.msy-offerhead1{
+	padding: 0px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+
+}
+.msy-offerhead2{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 61px;
+	color: #000000;
+	margin-bottom: 23px;
+	position: relative;
+	
+}
+.msy-offerhead2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 44%;
+    left: 28%;
+    border-top: 2px solid black;
+}
+
+.msy-offerhead3{
+	padding: 0px;
+	font-size: 18px;
+	font-weight: 500px;
+	margin-bottom: 16px;	
+}
+.msy-offerhead3 span{
+	font-size: 18px;
+	font-weight: 400px;
+	
+}
+.msy-offerhead4{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+
+	margin-bottom: 53px;
+}
+.msy-offerApply{
+	height: 70px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
+.msy-offerApply button{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	height: 70px;
+	background:#D5D5D5;
+	color: #FFFFFF;
+	border-top-right-radius:0;
+	border-top-left-radius:0;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
+#apply-btn2{
+	background: #01338D;
+}
+.msy-offer-viewall{
+	display: none;
+}
+.msy-offerrow{
+	padding-left: 15px
+}
+
+
+
+
+
+
+/**Gallery**/
+
+.msy-gallery{
+	max-width: 1300px;
+	padding:40px 0 80px 0; 
+}
+.msy-gallery1{
+	max-width: 1300px;
+}
+.msy-gallery-head h1{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+}
+.msy-gallery-ImgVid button{
+	background: #ffffff;
+	color: rgba(0,0,0,0.36);
+	font-weight: 500;
+	font-size: 24px;
+	padding-left: 5px;
+	padding-right: 10px;
+	margin-right: 30px;
+	outline: none;
+	box-shadow: none;
+}
+
+/****Version 2 gallery ***/
+.msy-gallery-cont{
+	padding-top: 25px;
+}
+.msy-gallery-row{
+	margin-bottom: 20px;
+}
+.w-42{
+    width: 40%;
+    padding: 0;
+   }
+   .w-42 img{
+    height: 100%;
+   }
+   .w-33{
+    width: 31%;
+    padding: 0;
+   }
+   .w-33 img{
+    
+   height: 48%;
+   }
+   .w-33 img:first-child{
+    
+   margin-bottom: 8%;
+   }
+
+   .w-26{
+    width: 24%;
+    padding: 0;
+   }
+   .w-26 img{
+    height: 100%;
+   }
+.msy-gallery-hidden-images{
+	display: none;
+}
+
+
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+  outline-offset: -2px;
+  box-shadow: none;
+}
+.msy-gallery-ImgVid button i{
+	color: rgba(0,0,0,0.36);
+	padding-right: 10px;
+}
+#img-btn{
+	border-bottom: 4px solid #01338D;
+	color: black;
+}
+#img-btn i{
+	color: #01338D;
+}
+.msy-galleryCont{
+	padding: 15px 0 0 0;
+}
+
+.msy-gallery-btn3{
+	width: 139px;
+	padding: 12px 32px 12px 32px;
+	background: #01338D;
+	color: #ffffff;
+
+}
+
+/**Whats our student say*/
+.msy-woss{
+	background: #01338D;
+	padding: 40px 0;
+}
+.msy-woss-head{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+	/* identical to box height */
+
+
+	color: #FFFFFF;
+
+	margin-bottom: 20px;
+}
+.msy-woss-student{
+	max-width: 100%;
+	padding-left: 80px;
+	position: relative;
+}
+.msy-woss-student-sub{
+	cursor: grab;
+	padding-left: 0;
+	padding-right: 0;
+	max-height: 350px;
+	max-width: 1456px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+.msy-woss-student-sub::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.msy-woss-col{
+	overflow: hidden;
+	max-width: 540px;
+	margin-right:  30px; 
+	padding: 0;
+	position: relative;
+}
+.msy-woss-student-para{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	/* or 171% */
+
+	text-align: center;
+	font-feature-settings: 'salt' on, 'liga' off;
+
+	color: #18191F;
+	padding: 51px 32px;
+	max-width: 476px;
+	background: #ffffff;
+	position: relative;
+	border-radius: 20px;
+}
+.msy-woss-student-para::after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+  	border-top: 30px solid #ffffff;
+}
+
+.msy-woss-button1{
+	font-size: 60px;
+	color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 2%;
+}
+.msy-woss-button2{
+	font-size: 60px;
+	color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right:  2%;
+}
+.msy-woss-student-drop{
+	width: 20px;
+	height: 20px;
+	transform: rotate(45deg);
+	background: #ffffff;
+}
+.msy-woss-student-image{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 40px 0 0 0;
+	height:  56px;
+}
+.msy-woss-student-image-div{
+	margin-right: 16px;
+}
+.msy-woss-student-image-name{
+	margin-left: 0px;
+}
+.msy-woss-student-image img{
+
+	width: 56px;
+	border-radius: 50%;
+}
+.msy-woss-student-image h1{
+	color: #ffffff;
+	max-height: 28px;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600px;
+}
+
+
+
+/**Blog**/
+.msy-blog-main{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	width: 100%;
+	padding: 50px 10px;
+}
+.msy-blog-head{
+	font-size: 58px;
+	font-weight: 600;
+	margin: 32px;
+}
+.msy-blog-box{
+	max-width: 411px;
+	margin-bottom: 32px; 
+}
+.msy-blog-box-img{
+	max-width: 411px;
+}
+.msy-blog-box-img img{
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.msy-blog-box-details p{
+	font-weight: 500;
+	color: #000000;
+	font-size:18px;
+	margin-bottom: 0.5rem;
+}
+.msy-blog-box-date{
+	font-size: 14px;
+	color: rgba(0,0,0,0.7);
+}
+
+
+
+/**Footer**/
+
+.msy-footer{
+	background:  #0B0D17;
+	padding: 112px 0;
+}
+
+.msy-footer-cont{
+	max-width: 1110px;
+}
+.msy-footer-logo{
+	width: 140px;
+	height: 53px;
+	background: #ffffff;
+	margin-bottom: 38px;
+}
+.msy-footer-item ul{
+	padding: 0;
+	max-width: 900px;
+	margin-bottom: 62px;
+	list-style: none;
+	text-decoration: none;
+	
+
+}
+.msy-footer-item ul li a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	/* identical to box height */
+
+
+	color: #FFFFFF;
+
+}
+
+.msy-footer-bar{
+	margin-bottom:  8px;
+	border-bottom: 2px solid rgba(255,255,255,0.8);
+}
+.msy-footer-social ul{
+	list-style: none;
+}
+.msy-footer-social ul li{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	margin-left: 16px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.1);
+}
+.msy-footer-social ul li a{
+	font-size: 12px;
+	border-radius: 50%;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	color: white;
+	background: black;
+}
+.temp{
+	border: solid 2px black;
+}
+
+
+
+.FormHeader{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+

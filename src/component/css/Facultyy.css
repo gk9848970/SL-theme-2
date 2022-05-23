@@ -1,0 +1,11 @@
+.faculty{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    max-width: 1300px;
+    justify-content: space-around;
+}
+.app {
+    padding: 80px 0px;
+    margin-bottom: 15px;
+}

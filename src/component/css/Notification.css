@@ -1,0 +1,277 @@
+
+body{
+	transition: 1s;
+}
+.msy-nav{
+	padding: 0;
+	height: 80px;
+}
+.navbar{background-color:rgba(0,0,0,.2)}
+.msy-nav-mobile{
+	display: none;
+}
+
+
+.msy-logo{
+	width: 183px;
+	height: 80px;
+}
+.msy-logo img{
+	width: 183px;
+	height: 80px;
+}
+.msy-menu{
+	max-width:  865px;
+}
+
+.msy-menu-content{
+	margin-right: 60px;
+	width:  614px;
+}
+
+.msy-menu-content ul{
+	width: 100%;
+	margin:0;
+	padding: 0;  
+}
+.msy-menu-content li{
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+
+}
+.msy-menu-content li a{
+	text-decoration: none;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #FFFFFF;
+}
+.fa-angle-down{
+	font-family:  generic;
+}
+.msy-not-contact{
+	width: 210px;
+}
+.msy-notify button{
+	border-radius: 50%;
+	background: #01338D;
+}
+.msy-contactUs button{
+	background: #01338D;
+	color: #ffffff;
+}
+.msy-notify button i{
+	color: yellow;
+}
+.fas{
+	color: white;
+}
+
+
+
+
+/*****Notifiaction***********/
+
+
+.msy-course-type{
+	font-family: 'Inter', sans-serif;
+	padding:15px 0;
+	background: #FAFAFA;
+}
+.msy-course-type1{
+	margin: 0 auto;
+	max-width: 100%;
+}
+.msy-course-backbtn{
+	margin-bottom: 54px;
+}
+.msy-course-backbtn a{
+	font-family: 'Inter', sans-serif;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+}
+.msy-course-backbtn span{
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+
+}
+.msy-notif1 span:first-child{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 39px;
+	height: 39px;
+	border-radius: 50%;
+	color: #ffffff;
+	margin-right: 10px;
+}
+.msy-notif-pg div{
+	margin-bottom: 24px;
+}
+
+
+
+/*****************Contact US*************************/
+.msy-notif-pg ul li{
+	font-family: 'Inter', sans-serif;
+	list-style: none;
+	margin-bottom: 10px;
+}
+.msy-notif-pg ul li a{
+	font-family: 'Inter', sans-serif;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+.msy-notif-pg ul li i{
+	color: #000000;
+	margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+/**Footer**/
+
+.msy-footer{
+	margin: 0 auto;
+	background:  #0B0D17;
+	padding: 112px 0;
+}
+
+.msy-footer-cont{
+	margin: 0 auto;
+	max-width: 1110px;
+}
+.msy-footer-logo{
+	margin: 0 auto;
+	width: 140px;
+	height: 53px;
+	background: #ffffff;
+	margin-bottom: 38px;
+}
+.msy-footer-item ul{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 900px;
+	margin-bottom: 62px;
+	list-style: none;
+	text-decoration: none;
+	
+
+}
+.msy-footer-item ul li a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	/* identical to box height */
+
+
+	color: #FFFFFF;
+
+}
+
+.msy-footer-bar{
+	margin-bottom:  8px;
+	border-bottom: 2px solid rgba(255,255,255,0.8);
+}
+.msy-footer-social ul{
+	list-style: none;
+}
+.msy-footer-social ul li{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	margin-left: 16px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.1);
+}
+.msy-footer-social ul li a{
+	font-size: 12px;
+	border-radius: 50%;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	color: white;
+	background: black;
+}
+.temp{
+	border: solid 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
