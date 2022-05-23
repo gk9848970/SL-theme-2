@@ -1,0 +1,524 @@
+i{
+    color: inherit;
+    padding: 5px;
+  }
+  
+  .testimonialCards {
+    width: 90%;
+  }
+  
+  .container.header-brand-div{
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .header-brand-div {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+  }
+
+  .headDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+.header-brand{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  padding: 0px !important;
+}
+
+  .header-brand li{
+    padding: 20px;
+  }
+
+
+  .sliderImages {
+    width: 100% !important;
+  }
+  
+  .slider{
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  
+  .modalCloseButtonDiv{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .modalCloseButton{
+    float: right;
+    
+    font-size: 200%;
+    cursor: pointer;
+    color: var(--secondaryColor);
+  }
+  .modalCloseButton i{
+    color: var(--ternaryColor);
+  }
+  
+  
+  .modalCloseButton:hover i{
+    color: var(--ternaryColor);
+  }
+  
+  .modalOuterDiv .yl-testimonial-text-2{
+    margin-top: 50px;
+  }
+  
+  .modalOuterDiv{
+    position: relative;
+
+  }
+  
+  .modalOuterDiv .yl-testimonial-icon-2{
+    float: right !important;
+    position: unset !important;
+  }
+  .modalOuterDiv .yl-testimonial-img-text-2{
+    padding: 10px 20px 50px;
+  }
+  
+  .yl-department-section .modalOuterDiv{
+    max-width: 80% !important;
+  }
+  
+  .showMoreBtn{
+    margin-top: 50px;
+  }
+  
+  
+  .displaySelectorDiv ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--secondaryColor);
+  width: 70%;
+  margin-left:15% ;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+  }
+  
+  .displaySelectorDiv ul li{
+    /* background-color: wheat; */
+    width: 33.33%;
+    display: block;
+    text-align: center;
+    /* border: 1px solid yellow; */
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .displaySelectorDiv ul li:hover{
+    background-color: var(--ternaryColor);
+    /* color: #fff; */
+  }
+  
+  .displaySelectorDiv .selected{
+    background-color: var(--ternaryColor);
+    height: 100%;
+  
+  }
+
+
+
+  
+  .container.slideShow{
+    padding-top:80px ;
+    width: 100% !important;
+    background-color: rgb(247, 247, 247) !important;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+    min-height: 60vh;
+    padding-bottom: 50px;
+  }
+  
+  
+  .container.slideShow .title-watermark{
+    text-align: center !important;
+    width: 100%;
+  }
+  
+  .container.slideShow .yl-section-title h3{
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 50px;
+  }
+  
+  
+  @media (max-width:1200px) {
+    .container.slideShow{
+      height: max-content;
+    }
+  }
+  
+  .container.slideShow .row{
+    display: flex;
+  }
+  
+  .container.slideShow .row .container{
+    margin: auto;
+    width: 55%;
+  }
+  
+  .messages{
+    margin-top: 50px;
+  }
+  .about-page-about-text-wrap, .textImp{
+    text-align: justify !important;
+  }
+  
+  .dropdown-menu{
+    list-style: none !important;
+  }
+  
+  .notificationText{
+    margin: auto;
+    /* border-left: 2px solid var(--ternaryColor); */
+    border-left: 2px solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .notificationText .yl-blog-meta-2{
+    width: 100%;
+    /* margin-left: 10%; */
+    text-align: left;
+    padding: 10px;
+  
+  }
+  
+  .notifyDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  
+  .notifyContainer{
+    height: 100%;
+  }
+  
+  .modalContainer{
+    position: relative;
+  }
+  
+  
+  .modalContainer .modalCloseButton{
+    margin-bottom: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .moreCourses{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    /* padding: 10px !important; */
+    margin: 10px 0;
+    border-bottom: 2px solid #000;
+  }
+
+  .moreCourses h3{
+    padding-bottom: 10px;
+  }
+
+  .yl-recent-blog-img{
+    display: flex;
+    height: 100% !important;
+  }
+  
+  .yl-recent-blog-img img{
+    margin: auto;
+  }
+  
+  .yl-blog-widget-wrap .yl-recent-blog-widget .yl-recent-blog-img-text{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  .yl-feature-content .yl-headline p{
+    text-align: justify !important;
+  }
+  
+  .readMore{
+    border: 0 !important;;
+    background-color: var(--secondaryColor);
+  }
+  
+  .readMore:hover{
+    background-color: var(--ternaryColor);
+  }
+  
+  .yl-instructor-img-text:hover .readMore{
+    background-color: var(--ternaryColor);
+  
+  }
+  
+  
+  footer{
+    background-color: var(--ternaryColor);
+    color: #fff !important;
+  }
+  
+  footer .yl-footer-logo-widget p{
+    color: inherit !important;
+    text-align: justify !important;
+  }
+
+
+  
+  .modalOuterDiv .yl-instructor-img-text:hover .yl-ins-course-no,
+  .modalOuterDiv .yl-instructor-img-text:hover h3 {
+    color: #000 !important;
+  }
+
+.embed-responsive.embed-responsive-16by9.videoDiv{
+  margin: 10px;
+}
+
+.imageViewer{
+  height: 80vh;
+  margin: auto;
+}
+
+.logo-img-div{
+  max-width: 40%;
+  height: 100%;
+  vertical-align: middle;
+}
+.brand-name-container{
+  width: 60%;
+  vertical-align: middle;
+}
+
+
+
+
+  @media screen and (max-width: 680px) {
+    .displaySelectorDiv ul{
+      width: 100%;
+      margin-left:0% ;
+      overflow: hidden;
+      }
+    
+      .container.slideShow .row .container{
+        
+        width: 90%;
+      }
+  
+  }
+
+  .yl-header-menu-wrap {
+    padding: 20px 0px;
+    border-top: 3px solid var(--primaryColor);
+  }
+  @media (max-width: 991px) {
+    .container.slideShow .row .container{
+      width: 80%;
+    }
+    .notificationText{
+      margin: auto;
+      /* border-left: 2px solid var(--ternaryColor); */
+      border-left: none;
+    }
+    .yl-header-menu-wrap {
+      padding: 0px !important;
+    }
+  }
+
+.course-details-overview .overViewDiv{
+  width: max-content;
+}
+
+.courseOverViewBox{
+  overflow-x: scroll;
+}
+
+.brand-name-container{
+  width: 60%;
+}
+
+.headDiv .brandDiv{
+  width: 50%;
+  overflow: hidden;
+}
+
+
+.headDiv .header-contact{
+  width: 50%;
+  overflow: hidden;
+}
+
+
+.brandContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style:none; 
+  width: 100%;     
+  justify-content: space-between;
+
+}
+
+.modalDiv{
+  width: 50%;
+  margin: auto;
+  top: 25%;
+  margin-left:25%;
+  z-index: 1000;
+  position: absolute;
+}
+
+
+@media (max-width:991px){
+  .modalDiv{
+    width: 80%;
+    margin: auto;
+    top: 25%;
+    margin-left:10%;
+    z-index: 1000;
+    position: absolute;
+  }
+
+   
+  .headDiv .brandDiv{
+    width: 96%;
+    margin-left: 2%;
+    height: 80px;
+    margin-top: 0;
+
+  }
+  .brandContainer{
+    align-items: center !important;
+    justify-content: space-between;
+  }
+  .brand-name-container{
+    width: 40%;
+  }
+
+
+
+  .header-brand li{
+    padding-bottom: 0 !important;
+  }
+
+}
+.menu-button{
+  color: var(--ternaryColor);
+  font-size: 250%;
+  display: none;
+  z-index: 100;
+}
+
+@media (max-width: 991px) {
+ .menu-button{
+   display: block;
+ }
+ .logo-img-div{
+  max-width: 40%;
+  height: 100%;
+}
+
+}
+@media (max-width:576px) {
+  .logo-img-div{
+    max-width: 70%;
+    height: 100%;
+  }
+}
+
+
+
+
+.modalOuterDiv .yl-instructor-img-text:hover .yl-instructor-text {
+  background-color: #fff;
+  
+}
+
+.modalOuterDiv .yl-instructor-img-text:hover .yl-instructor-text:after {
+  background-color: #fff;
+  
+}
+
+.modalDivNotify{
+  width: 60%;
+  position: absolute;
+  top: 10%;
+  margin-left: 20%;
+}
+
+
+.modalDivNotify .modalContainer{
+background-color: #fff !important;
+display: block;
+width: 100%;
+padding: 20px;
+border-radius: 10px;
+}
+
+.yl-contact-content-icon i{
+  color: var(--secondaryColor);
+}
+
+.contactQueryType {
+  height: 55px;
+  width: 248px;
+  border: none;
+  margin: 0px 15px;
+  padding-left: 20px;
+  border-radius: 8px;
+  background-color: #efeff0;
+  color: #757575;
+}
+
+.uploadButton{
+  width: 100%;
+}
+
+.modal-content{
+  background-color: transparent;
+  border: none;
+}
+
+.modal-content svg path{
+  stroke: #fff;
+}
+
+.msy-aboutus_info{
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.msy-course-type1,.msy-offer-carousel,
+.msy-weOffer-cont,.msy-gallery1,.msy-gallery
+
+{
+  max-width: 100%;
+}

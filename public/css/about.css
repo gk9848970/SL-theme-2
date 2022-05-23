@@ -1,0 +1,23 @@
+h2 {
+  /* text-decoration: underline; */
+  text-decoration-color: #01338d;
+}
+.svg {
+  height: 200px;
+  padding: 15px;
+}
+.svg1 {
+  height: 270px;
+  padding: 25px;
+}
+.mission {
+  display: flex;
+  flex-direction: row;
+  /* width: 1000px; */
+  align-items: center;
+}
+.vision {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

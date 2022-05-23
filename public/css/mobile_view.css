@@ -1,0 +1,419 @@
+@media screen and (max-width: 414px){
+	.msy-aboutUs_img{
+		max-width: 366px;
+		overflow: hidden;
+	}
+	.msy-aboutUs_img img{
+		max-width: 100%;
+	}
+	.msy-blog-box{
+		max-width: 171px;
+		margin-bottom: 32px; 
+	}
+
+
+
+
+
+	.msy-jumbotron{
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 24px;
+		padding:24px 24px 40px 24px;
+		flex-direction: column;
+	}
+	.msy-nav{
+		display: none;
+	}
+	.msy-nav-cont{
+		
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.msy-nav-mobile{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 54px; 
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.msy-nav-mobile-img{
+		margin-left: 0;
+		width: 91px;
+		height: 40px;
+
+	}
+	.msy-nav-mobile-bars{
+		font-size: 30px;
+
+	}
+	.msy-quotes{
+		max-width: 699px;
+	}
+	.msy-quotes-head h1{
+		
+		font-size: 32px;
+		line-height: 39px;
+
+	}
+ 	#msy-quotes-head{
+ 		font-size: 32px;
+		line-height: 39px;
+ 	}
+ 	.msy-quotes-para p{
+ 		font-size: 18px;
+		line-height: 22px;
+ 	}
+ 	.msy-quotes{
+ 		margin-bottom: 32px;
+ 	}
+ 	.msy-apply-form{
+ 		padding:27px 10px;
+ 	}
+ 	.msy-apply-form h1{
+ 		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+ 	}
+ 	.msy-apply-form input::placeholder{
+ 		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 20px;
+ 	}
+ 	.msy-apply-form button{
+ 		font-family: Inter;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+ 	}
+ 	.msy-aboutUs1{
+ 		padding: 42px 24px 42px 24px;
+ 		
+ 	}
+ 	.msy-aboutUs_para h1{
+		font-size: 32px;
+		line-height: 39px;
+ 	}
+ 	.msy-aboutUs_para p{
+ 		font-size: 18px;
+		line-height: 22px;
+		color: #000000;
+ 	}
+ 	.msy-aboutUs2{
+ 		text-align: center;
+ 	}
+ 	.msy-aboutUs2-head{
+
+		font-family: 'Inter', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 39px;
+ 		display: block;
+ 		margin-top: 67px;
+ 		margin-bottom: 29px;
+
+ 	}
+
+ 	.msy-aboutus_info{
+ 		padding-top: 0px;
+ 	}
+ 	.msy-aboutus_details h1{
+ 		font-weight: 800;
+		font-size: 36px;
+		line-height: 64px;
+ 	}
+	 .msy-aboutus_details p{
+	 	font-size: 16px;
+		line-height: 26px;
+	 }
+	 .msy-aboutus_details {
+	 	margin-bottom: 32px;
+	 }
+	 .msy-course-head button{
+	 	margin-left: 20px;
+	 }
+	 .msy-course-type1{
+	 	padding: 48px 24px 32px 24px;
+	 }
+	 .msy-viewall{
+	 	margin: 0 auto;
+	 }
+	 .msy-sub-cbse{
+	 	width: 48%;
+	 	display: flex;
+	 	flex-direction: column;
+	 	flex-shrink: 0;
+	 	padding: 16px;
+	 }
+	 .msy-sub-cbse-head h1{
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 32px;
+		margin-bottom: 10px;
+	 }
+
+	.msy-sub-cbse-head::before {
+	    content: '';
+	    display: block;
+	    position: absolute;
+	    top: 100%;
+	    width: 75%;
+	    left: 0;
+	    border-top: 4px solid #01338D;
+	}
+	 .msy-sub-cbse-para  p{
+		font-size: 18px;
+		line-height: 32px;
+	 }
+	 .mys-cbse{
+	 	padding-top: 16px;
+	 	padding-bottom: 0;
+	 }
+	 .msy-offer-carousel{
+	 	padding: 32px 24px 32px 24px;
+	 }
+	 .msy-offerHead{
+	 	padding: 0;
+	 	font-weight: 600;
+		font-size: 32px;
+		line-height: 39px;
+		margin-bottom: 16px;
+	 }
+	 .msy-offerItem{
+	 	padding-top: 32px;
+	 	max-width: 302px;
+	 	box-shadow: none;
+	 }
+	 .msy-offerhead1{
+	 	font-weight: normal;
+		font-size: 30px;
+		line-height: 36px;
+	 }
+	 .msy-offerhead2{
+	 	font-weight: bold;
+		font-size: 50px;
+		line-height: 61px;
+	 }
+	 .msy-offerhead3{
+	 	font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+	 }
+	 .msy-offerhead3{
+	 	font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+	 }
+	 .msy-offerApply{
+	 	font-family: 'Inter', sans-serif;
+	 	box-shadow: none;
+	 	font-weight: bold;
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 24px;
+	 }
+	 .msy-offer-viewall{
+	 	display: block;
+	 }
+	 .msy-gallery-hidden-images{
+		display: none;
+	}
+	 .msy-gallery-row{
+		margin-bottom: 10px;
+	}
+	 .msy-gallery1{
+	 	padding: 26px 24px 24px 24px;
+	 }
+	 .msy-gallery{
+	 	padding-top: 0;
+	 }
+	 .msy-gallery-head h1{
+	 	font-weight: 600;
+		font-size: 32px;
+		line-height: 39px;
+	 }
+	 .msy-woss{
+	 	padding-top:  40px ;
+	 	padding-bottom: 40px;
+	 	padding-left: 24px;
+	 }
+	 .msy-woss-button1,.msy-woss-button2{
+	 	display: none;
+	 }
+	 .msy-woss-student{
+	 	padding-left: 0px;
+
+	 }
+	 .msy-woss-head h1{
+	 	font-weight: 600;
+		font-size: 32px;
+		line-height: 39px;
+	 }
+	 .msy-woss-student-para p{
+	 	margin-bottom: 0;
+	 	font-weight: normal;
+		font-size: 14px;
+		line-height: 24px;
+		color: #18191F;
+	 }
+	 .msy-woss-student-image-name h1{
+	 	font-size: 18px;
+		line-height: 28px;
+	 }
+	 .msy-woss-col{
+	 	max-width: 308px;
+	 	margin-right:  0px;
+	 }
+	 .msy-woss-student-para{
+	 	border-radius: 10px;
+	 	max-width: 272px;
+	 	padding: 26px 18px;
+	 }
+	 .msy-woss-student-para::after{
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+	  	border-top: 10px solid #ffffff;
+	}
+	.msy-blog-main {
+		padding: 32px 24px;
+
+	}
+	.msy-blog-head{
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 39px;
+	}
+	.msy-blog-box-details p{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.msy-blog-box{
+		width: 46%;
+		display: flex;
+		flex-direction: column;
+		flex-shrink: 1;
+	}
+	.msy-footer-item ul{
+		margin-bottom: 38px;
+		padding-left: 5px;
+		flex-direction: column;
+		text-align: left;
+
+	}
+	.msy-footer-item ul li{
+		margin-left: 0;
+		margin-bottom: 16px;
+
+	}
+	.msy-footer1{
+		max-width: 150px;
+	}
+	.msy-footer-logo{
+		margin-bottom: 24px;
+	}
+	.msy-footer-bar{
+		display: none;
+	}
+	.msy-footer-social{
+		max-width: 140px;
+
+		margin: 0 auto;
+		height: auto;
+
+	}
+	.msy-footer-social ul{
+		padding: 0;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		max-width: 150px;
+		height: 24px;
+	}
+
+	.msy-footer-social ul li{
+		
+		margin: 0 auto;
+		
+	}
+
+	/*----some missing degines---*/
+	.msy-gallerycol{
+		padding: 2px;
+	}
+	.msy-gallerycol img{
+		margin-bottom: 10px;
+	}
+	.msy-gallery-btn3{
+		display: none;
+	}
+	.msy-gallery-hidden-images{
+		display: flex;
+	}
+	.msy-course-head{
+		padding-bottom: 0px;
+	}
+	.msy-course-head button{
+		font-weight: 600;
+		font-size: 28px;
+		line-height: 32px;
+		border-radius: 0;
+		padding-bottom: 4px;
+		background: #FAFAFA;
+
+	}
+	#Courses-cbse{
+		color: #000000;
+		background: #FAFAFA;
+		border-bottom:4px solid #01338D;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

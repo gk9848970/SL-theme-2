@@ -1,0 +1,73 @@
+.career{
+    padding: 100px;
+}
+.contentt{
+    margin-bottom: 40px !important;
+}
+.formm{
+  border: 1px solid;
+  padding: 20px;
+  background: white !important;
+  box-shadow: 5px 10px 18px #888888;
+}
+.adm-section{
+  /* margin: 50px 20px; */
+margin-top: 0px !important;
+  padding: 150px 100px;
+  background-color: #f2f2f4;
+  /* position: relative;
+  left: 100px;
+  right: 100px; */
+}
+
+.req{
+  padding-bottom: 10px;
+  color: #e3002a;
+  font-size: 20px;
+  margin-left: -25px;
+}
+.starred{
+    color: #e3002a;
+    font-size: 8px;
+    position: relative;
+    bottom: 5px;
+}
+
+.gen{
+    margin: 10px 5px 10px 10px;
+
+}
+
+.adm-gender{
+  flex-wrap: wrap;
+  margin: 5px -15px;
+}
+
+.yl-admission-form-input{
+  height: 50px;
+  width: 200px;
+  border: none;
+  margin: 0px 15px;
+  padding-left: 20px;
+  border-radius: 8px;
+  background-color: #efeff0;
+  flex-wrap: wrap;
+  margin: 15px 5px;
+}
+
+.adm-select{
+  height: 50px !important;
+  width: 245px !important;
+  border: none !important;
+  margin-left: 20px !important;
+  margin-top: 0px !important;
+  border-radius: 8px !important;
+  background-color: #efeff0 !important;
+  flex-wrap: wrap !important;
+}
+.btn11{
+  width : 100%;
+}
+.text{
+  width: 100% !important;
+}
