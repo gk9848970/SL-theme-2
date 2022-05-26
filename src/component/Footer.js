@@ -80,14 +80,14 @@ function Footer({ id, config }) {
                             </div>
                             <div style={{ paddingLeft: "70px" }} className=" col-md-6">
                                 {config.menu && config.menu[0] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/" onClick={footerLink(false)}>Home</Link>
                                     </div>
                                 ) : (null)}
 
                                 {config.menu && config.menu[1] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/about" onClick={footerLink(false)}>About</Link>
                                     </div>
@@ -96,7 +96,7 @@ function Footer({ id, config }) {
 
 
                                 {config.menu && config.menu[2] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/course" onClick={footerLink(false)}>Course</Link>
                                     </div>
@@ -105,30 +105,30 @@ function Footer({ id, config }) {
 
 
                                 {config.menu && config.menu[3] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/offering">Our Offering</Link>
                                     </div>
                                 ) : (null)}
 
                                 {config.menu && config.menu[4] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/gallery">Photo Gallery</Link>
                                     </div>
                                 ) : (null)}
 
                                 {config.menu && config.menu[5] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/notificationpage" onClick={footerLink(false)}>Notification</Link>
                                     </div>
                                 ) : (null)}
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 footer-link">
                                     <i className="fas fa-angle-right footerIcon"></i>
                                     <Link className="footerItem" href="/refund" onClick={footerLink(false)}>Refund Policy</Link>
                                 </div>
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 footer-link">
                                     <i className="fas fa-angle-right footerIcon"></i>
                                     <Link className="footerItem" href="/terms" onClick={footerLink(false)}>Terms & Condition</Link>
                                 </div>
@@ -138,7 +138,7 @@ function Footer({ id, config }) {
                             <div style={{ paddingLeft: "70px" }} className="col-md-6">
 
                                 {config.menu && config.menu[6] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/career" onClick={footerLink(false)}>Careers</Link>
 
@@ -146,27 +146,27 @@ function Footer({ id, config }) {
                                 ) : (null)}
 
                                 {config.menu && config.menu[7] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href={`${webDetail.sub_domain !== "" ? "http://" + webDetail.sub_domain : ""}`} onClick={footerLink(false)}>Online Test</Link>
                                     </div>
                                 ) : (null)}
 
                                 {config.menu && config.menu[9] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/blogs" onClick={footerLink(false)}>Blog</Link>
                                     </div>
                                 ) : (null)}
 
                                 {config.menu && config.menu[11] === 'Y' ? (
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 footer-link">
                                         <i className="fas fa-angle-right footerIcon"></i>
                                         <Link className="footerItem" href="/contact" onClick={footerLink(false)}>Contact Us</Link>
                                     </div>
                                 ) : (null)}
 
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 footer-link">
                                     <i className="fas fa-angle-right footerIcon"></i>
                                     <Link className="footerItem" href="/admission" onClick={footerLink(false)}>Admission form</Link>
                                 </div>
@@ -182,7 +182,7 @@ function Footer({ id, config }) {
                                     <><Link className="footerItem" href="/batch" onClick={footerLink(false)}>Batch Management</Link></>
                                     
                                 </div> */}
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 footer-link">
                                     <i className="fas fa-angle-right footerIcon"></i>
                                     <Link className="footerItem" href="/privacypolicy" onClick={footerLink(false)}>Privacy Policy</Link>
                                 </div>

@@ -57,7 +57,7 @@ function Review({id}) {
          <h1 style={{ marginBottom: 20 }}>Testimonials</h1>
         </div>
     <div
-      className="testimonial pt-5"
+      className="testimonial"
       style={{ display: "flex", justifyContent: "center"}}
     >
     

@@ -125,13 +125,13 @@ const ContactForm = ({ id }) => {
 	return (
 		<>
 			<section id="contact-content" className="contact-content-section">
-				<div className="container">
+				<div className="container contact-container">
 					<div className="text-center ">
 						<h2>Contact Us for Anything</h2>
 						<p style={{ color: 'grey', fontWeight: '450' }}>Our goal is to be as helpful as possible</p>
 					</div>
 					<div className="yl-contact-content-wrap">
-						<div className="row justify-content-center">
+						<div className="contact-content-row row justify-content-center">
 						{(instDetail.Address1 && instDetail.Address1.length > 0) || (instDetail.Address1 && instDetail.Address1.length > 0) ? (
                                 <div className="col-lg-4 col-md-6">
                                     <div className="yl-contact-content-inner text-center">
@@ -194,9 +194,9 @@ const ContactForm = ({ id }) => {
 							{/* <textarea name="your_query" onChange={handleChange} placeholder="Write your message here*" value={formData.your_query} /> */}
 							{buttonState === "Submit Now" ?
 								(
-									<button type="submit" onClick={handleSubmit}>{buttonState} <i className="fas fa-arrow-right" /></button>
+									<button className="contact-form-button" type="submit" onClick={handleSubmit}>{buttonState} <i className="fas fa-arrow-right" /></button>
 								) : (
-									<button type="submit" onClick={handleSubmit} className="btn disabled" disabled>{buttonState} <i className="fas fa-arrow-right" /></button>
+									<button type="submit" onClick={handleSubmit} className="btn disabled contact-form-button" disabled>{buttonState} <i className="fas fa-arrow-right" /></button>
 								)}
 
 						</form>

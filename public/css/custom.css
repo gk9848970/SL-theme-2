@@ -522,3 +522,347 @@ border-radius: 10px;
 {
   max-width: 100%;
 }
+
+/* Changes to improve UI/UX - Gaurav */
+
+/* Navbar Changes */
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.brand-name-container {
+  width: unset;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.dropdown-menu {
+  top: 40px;
+  right: 0;
+  max-width: max-content;
+}
+
+@media screen and (max-width: 1030px) and (min-width: 992px) {
+  .brand-name-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .dropdown-menu {
+    margin-left: 4%;
+    max-width: max-content;
+  }
+}
+
+/* About Us Section */
+
+.aboutus-section {
+  margin: 100px 0;
+  margin-bottom: 0;
+}
+
+.msy-aboutUs2 {
+  margin-top: 120px;
+  padding: 100px 10px;
+}
+
+.aboutus-grid-1 {
+  gap: 20px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.aboutus-grid-1 > * {
+  flex-shrink: 1;
+}
+
+.msy-aboutUs_para {
+  padding: 10px 30px;
+}
+
+.msy-aboutus_info {
+  gap: 40px;
+}
+
+.msy-aboutus_info > * {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .aboutus-grid-1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .msy-offerHead {
+    padding: 0;
+  }
+
+  .aboutus-grid-1  a {
+    text-align: center;
+  }
+  
+  .msy-aboutUs2 {
+    margin-top: 60px;
+    padding: 60px 10px;
+  }
+}
+
+/* Gallery */
+
+.msy-gallery-row {
+  justify-content: center;
+}
+
+.gallery-img {
+  overflow: hidden;
+}
+
+.gallery-img:hover > img {
+  transform: scale(1.1);
+}
+
+.gallery-img > img {
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-img {
+    width: unset;
+  }
+}
+
+/* Testimonial Section */
+
+.testimonial {
+  padding: 100px 0;
+}
+
+/* Notification Section */
+
+.noti-section {
+  margin: 100px auto;
+  margin-top: 0;
+}
+
+.noti-grid {
+  padding: 25px 10px;
+
+  justify-content: center;
+  gap: 30px;
+}
+
+.noti-card-holder {
+  padding: 0;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 991px) {
+  .noti-section {
+    margin: 100px 0;
+  }
+}
+
+/* Footer */
+
+.msy-footer {
+  padding: 80px 0;
+}
+
+/* Contact Us */
+
+.contact-container {
+  padding: 100px 0;
+}
+
+.yl-contact-content-inner {
+  height: 100%;
+}
+
+/* ABout Page */
+
+.about-page-grid-1 {
+  margin-top: 10em;
+
+  gap: 30px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.about-page-grid-1 > * {
+  flex-shrink: 1;
+}
+
+.about-grid-1-text-div > h1 {
+  margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 991px) {
+  .about-page-grid-1 {
+    margin-top: 8em;
+    flex-direction: column;
+  }
+
+  .about-page-grid-1 > * {
+    max-width: 628px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .about-grid-1-para {
+    text-align: center;
+  }
+}
+
+/* Mission Section */
+
+.mission-section {
+  margin: 100px 0;
+  margin-bottom: 0;
+}
+
+.mission-heading {
+  margin-bottom: 50px;
+}
+
+.mission-img {
+  margin-bottom: 40px;
+}
+
+.mission-para {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.mission-para ul {
+  padding-left: 48px !important;
+}
+
+.mission-para ul li {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .mission-section {
+    margin: 50px 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mission-para ul {
+    padding-left: 25px !important;
+  }
+}
+
+/* Vision Section */
+
+.vision-section {
+  height: unset;
+  margin: 20px 0;
+}
+
+.vision-heading {
+  margin-bottom: 50px;
+}
+
+.vision-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+@media screen and (max-width: 530px) {
+  .vision-img {
+    max-width: 80%;
+  }
+}
+
+
+/* Why Us */
+
+.whyus-section {
+  margin: 60px 0;
+  margin-bottom: 20px;
+}
+
+.whyus-heading {
+  margin-bottom: 50px;
+}
+
+.whyus-img {
+  margin-bottom: 50px;
+}
+
+.whyus-para {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+/* Director/Founder Msg */
+
+.msg-section {
+  margin: 0;
+  justify-content: center;
+}
+
+.msg-heading {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .msg-heading {
+    margin-bottom: -40px;
+  }
+}
+
+.msg-post {
+  margin-bottom: 15px;
+}
+
+/* Contact Form */
+
+.contact-container {
+  padding-bottom: 0;
+}
+
+.yl-contact-content-wrap {
+  padding: 20px;
+}
+
+.contact-content-row > * {
+  max-width: 350px;
+}
+
+.yl-contact-form-wrap {
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-content-row {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .yl-contact-form-input {
+    justify-content: center;
+  }
+
+  .contact-form-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .yl-contact-form-wrap {
+    margin-top: 55px;
+  }
+}

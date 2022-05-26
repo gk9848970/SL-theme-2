@@ -64,7 +64,7 @@ export default function NotificationSection({id})
         return (
             <>
 
-                <div className="container mt-5">
+                <div className="container noti-section">
 
                 <Modal style={customStyles} isOpen={modalIsOpen} onRequestClose={() => setIsOpen(false)}>
                     {status ? (
@@ -89,15 +89,14 @@ export default function NotificationSection({id})
 
                 </Modal>
 
-
-                    <div className="row">
-                        <div className=" text-center msy-offerHead">
+                    <div className=" text-center msy-offerHead">
                              <h1 style={{ marginBottom: 20 }}>Notifications</h1>
-                        </div>
+                    </div>    
+                    <div className="row noti-grid">
                         {notifications.slice(0, 4).map(function (notification, index) {
                             return (
                                 <>
-                                    <div className="applyShadow col-lg-3" style={{margin:'auto', justifyContent: 'center'}} >
+                                    <div className="applyShadow col-lg-3 noti-card-holder" style={{justifyContent: 'center'}} >
                                         <div className="card h-100">
                                             <img src={notification.image && notification.image.length >0 ? (notification.image) : (notificationImg)} className="card-img-top" alt="..." />
                                             <div className="card-body">

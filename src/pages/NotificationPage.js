@@ -60,7 +60,7 @@ function NotificationPage({id}) {
                 <p>Notifications</p>
             </div>
         
-        <div className="container mt-5 mb-5">
+        <div className="container">
 
         <Modal style={customStyles} isOpen={modalIsOpen} onRequestClose={() => setIsOpen(false)}>
                     {status ? (
@@ -86,12 +86,12 @@ function NotificationPage({id}) {
                 </Modal>
 
 
-            <div className="row">
+            <div className="row noti-grid">
                 
                 {notifications.map((notification, index)=>{
                     return (
                         <>
-                            <div className="applyShadow col-lg-3 mb-5" style={{margin:"20px"}} >
+                            <div className="applyShadow col-lg-3 mb-5 noti-card-holder">
                                 <div className="card h-100">
                                 <img src={(notification.image) ? (notification.image) : (defImg)} className="card-img-top" alt="..." />
                                     <div className="card-body">

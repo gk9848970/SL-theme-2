@@ -48,15 +48,15 @@ function About({id,feature}) {
 
         return (
             <div>
-                <div className=" msy-aboutUs d-flex flex-column ">
+                <div className="aboutus-section msy-aboutUs d-flex flex-column ">
                 {
                     status1 ?<>
                             <div className=" msy-aboutUs d-flex flex-column container">
-                                <div className="row">
-                                  <div className="msy-aboutUs_img col-md-6 mb-5 mt-5">
-                                        <img style={{height:"400px",marginBottom:"30px"}} src={aboutImg && aboutImg.length > 0 ? aboutImg : defImages} alt="about-us" className="img-fluid" />
+                                <div className="row aboutus-grid-1">
+                                  <div className="msy-aboutUs_img">
+                                        <img style={{width:"100%"}} src={aboutImg && aboutImg.length > 0 ? aboutImg : defImages} alt="about-us" className="img-fluid" />
                                     </div>
-                                    <div className="col-md-6 mb-5 mt-5 msy-aboutUs_para  d-flex flex-column  justify-content-center align-content-start">
+                                    <div className="msy-aboutUs_para  d-flex flex-column  justify-content-center align-content-start">
                                         <div className=" text-center msy-offerHead">
                                              <h1 style={{ marginBottom: 20 }}>About Us</h1>
                                         </div>

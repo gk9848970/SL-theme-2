@@ -78,10 +78,10 @@ function Gallery({ id }) {
                                 {images.slice(0, 8).map((image, index) => {
                                     return (
                                         <>
-                                            <div className="col-lg-3 col-md-4 mb-4 zoom">
+                                            <div className="col-lg-3 col-md-4 mb-4 gallery-img">
                                                 <img
                                                     src={image.url}
-                                                    className="w-100 shadow-1-strong rounded "
+                                                    className="shadow-1-strong rounded"
                                                     alt=""
                                                 />
                                             </div>

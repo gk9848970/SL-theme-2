@@ -148,7 +148,7 @@ function AdmissionForm({ email, id, clientName }) {
     
     return (
         <div className="container mt-5 mb-5" >
-            <div style={{ marginTop: '100px', fontFamily: 'Georgia, Times New Roman, Times, serif' }} className="text-center">
+            <div style={{ marginTop: '150px', fontFamily: 'Georgia, Times New Roman, Times, serif' }} className="text-center">
                 <h2>Admission Form</h2>
                 <h4 style={{ color: 'grey', fontWeight: '450' }}>Fill This Admission Form</h4>
             </div>

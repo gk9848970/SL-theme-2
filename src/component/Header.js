@@ -137,7 +137,7 @@ function Header({ id, config }) {
                         </div>
                     </Link>
                     {config.site_map === 'Y' ? (
-                        <div className="brand-name-container" style={{ width: "30%" }}>
+                        <div className="brand-name-container" >
                             <span className="nav-logo">{webDetail.institute_name}</span>
                             
                             <br />

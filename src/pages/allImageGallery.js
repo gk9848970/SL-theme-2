@@ -104,17 +104,17 @@ function AllImageGallery({ id }) {
 
                             </div>
 
-                            <div className="msy-gallery-cont w-100">
+                            <div className="msy-gallery-cont container">
                                 {/* <!-- Gallery --> */}
                                 <div className="row msy-gallery-row ">
 
                                     {images.map((image, index) => {
                                         return (
                                             <>
-                                                <div className="col-lg-3 col-md-4 mb-4">
+                                                <div className="col-lg-3 col-md-4 mb-4 gallery-img">
                                                     <img
                                                         src={image.url}
-                                                        className="w-100 shadow-1-strong rounded zoom"
+                                                        className="shadow-1-strong rounded"
                                                         alt=""
                                                     />
                                                 </div>
@@ -167,7 +167,7 @@ function AllImageGallery({ id }) {
                                                        
                                                         <a href={pdf.url}>
                                                         <img
-                                                                style={{width: '200px',height: '200px'}}
+                                                                style={{width: '100px',height: '100px'}}
                                                                 src={pdf_img} alt="............." 
                                                                 // onClick={toggleShowPdf}
                                                               
